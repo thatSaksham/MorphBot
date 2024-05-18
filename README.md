@@ -19,4 +19,8 @@ pip install -r requirements.txt
 #### Step 5: Run the bot
 ```bash
 chainlit run app.py
+<<<<<<< Updated upstream
 ```
+=======
+```
+>>>>>>> Stashed changes
