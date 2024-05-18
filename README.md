@@ -1,5 +1,7 @@
 # MorphBot
 
+![Image 1](./public/logo_dark.png)
+
 ### Installation
 
 #### Step 1: Clone the repository

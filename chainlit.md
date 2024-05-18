@@ -1,3 +1,5 @@
+![Image 1](./public/logo_light.png)
+
 # Welcome to MorphBot! 🤖🚀
 
 Hi there! 👋 We're excited to have you on board.
