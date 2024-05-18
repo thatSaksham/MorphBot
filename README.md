@@ -4,7 +4,7 @@
 
 #### Step 1: Clone the repository
 ```bash 
-gh repo clone thatSaksham/MorphBot
+git clone https://github.com/thatSaksham/MorphBot
 cd MorphBot
 ```
 #### Step 3: Create Python Environment
