@@ -28,4 +28,9 @@ jobs:
     - name: Run the bot
       run: |
         source aienv/bin/activate
-        chainlit run app.py
+        nohup chainlit run app.py &
+        sleep 10 # Give it some time to start
+
+    - name: Check bot status
+      run: |
+        curl -I http://localhost:8000 || (echo "Bot failed to start" && exit 1)
