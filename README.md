@@ -12,11 +12,16 @@ cd MorphBot
 python3 -m venv aienv
 .\aienv\Scripts\activate
 ```
-#### Step 4: Install the dependencies
+#### Step 4: Add API Key
+##### Create Groq API Key from [here](https://console.groq.com/keys) and edit the .env file
+```bash 
+GROQ_API_KEY=####
+```
+#### Step 5: Install the dependencies
 ```bash
 pip install -r requirements.txt
 ```
-#### Step 5: Run the bot
+#### Step 6: Run the bot
 ```bash
 chainlit run app.py
 ```
