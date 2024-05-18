@@ -82,12 +82,8 @@ async def on_chat_start():
         return_source_documents=True,
     )
     
-    # Sending an image with the number of files
-    elements = [
-    cl.Image(name="image", display="inline", path="pic.jpg")
-    ]
     # Inform the user that processing has ended.You can now chat.
-    msg = cl.Message(content=f"Processing {len(files)} files done. You can now ask questions!",elements=elements)
+    msg = cl.Message(content=f"Processing {len(files)} files done. You can now ask questions!")
     await msg.send()
 
     #store the chain in user session
